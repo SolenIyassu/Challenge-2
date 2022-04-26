@@ -1,0 +1,21 @@
+*{
+background-color: green;
+}
+
+
+:root {
+--Light:Blue;
+--dark: black
+}
+
+
+hr {
+ ;
+    
+}
+
+.Solen {
+    display: flex;
+    Justify-content: center; 
+    text-align: center;
+}
