@@ -10,7 +10,7 @@ background-color: green;
 
 
 hr {
- ;
+ line: height 20px;
     
 }
 
@@ -18,4 +18,12 @@ hr {
     display: flex;
     Justify-content: center; 
     text-align: center;
+    text-transform: capitalize;
+}
+header {
+    display:inline-block;
+    flex-direction: row;
+   
+
+
 }
