@@ -8,22 +8,25 @@ background-color: green;
 --dark: black
 }
 
-
 hr {
  line: height 20px;
     
 }
 
+}
+button {
+    display:inline-block;
+    flex-direction: row;
+    justify-text: left;
+}
 .Solen {
     display: flex;
     Justify-content: center; 
-    text-align: center;
     text-transform: capitalize;
+    font-style: bold;
+    text-decoration: solid;
 }
-header {
-    display:inline-block;
-    flex-direction: row;
-   
+.About Me. :hover {
 
 
 }
