@@ -1,32 +1,26 @@
 *{
-background-color: green;
+    background-color: black;
+    color:white;
 }
-
-
-:root {
---Light:Blue;
---dark: black
-}
-
-hr {
- line: height 20px;
-    
-}
-
-}
-button {
-    display:inline-block;
+Header {
+    display: flex;
     flex-direction: row;
-    justify-text: left;
+}
+
+button { 
+    display: inline-block;
+    position:relative;
+    right: -950px
+    }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;     
 }
 .Solen {
     display: flex;
-    Justify-content: center; 
-    text-transform: capitalize;
-    font-style: bold;
-    text-decoration: solid;
-}
-.About Me. :hover {
-
-
+    justify-content: space-between;
+    font-size: 45px;
+    color:darkblue;
 }
