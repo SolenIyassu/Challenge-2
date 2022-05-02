@@ -14,21 +14,34 @@ address {
 
 button { 
     display: inline-block;
+    background-color: blue;
     position:relative;
     right: -950px;
     color: red;
+    border-radius: 15px;
 }
- 
-
-h2 {
+footer{
+    display:flex;
+    justify-content: center;
+}
+div h2 {
+    display: inline-block;
+    position:relative;
+    Color: Green;
+    background-color: grey;
+    border-radius: 20px;
+}   
+div h3 {
     display: flex;
     justify-content: center;
-    Color: Green;
-    background-color: red;
-}   
+    border-radius: 15px;
+    background-color: blueviolet;
+
+}
 p {
     display: flex;
     justify-content: left;
+    color:darkgoldenrod;
 }
 
 .Solen {
@@ -42,4 +55,8 @@ p {
 button:hover {
     background-color: yellow;
     transition: .5 s;
+}
+img {
+    padding: 20px;
+    
 }
