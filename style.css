@@ -7,20 +7,39 @@ Header {
     flex-direction: row;
 }
 
+address {
+    display: flex;
+    justify-content: center;
+}
+
 button { 
     display: inline-block;
     position:relative;
-    right: -950px
-    }
-
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content:end;     
+    right: -950px;
+    color: red;
 }
-.Solen {
+ 
+
+h2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    Color: Green;
+    background-color: red;
+}   
+p {
+    display: flex;
+    justify-content: left;
+}
+
+.Solen {
+    display: inline-block;
+    position: relative;
+    left: 500px;
     font-size: 45px;
     color:darkblue;
+}
+
+button:hover {
+    background-color: yellow;
+    transition: .5 s;
 }
