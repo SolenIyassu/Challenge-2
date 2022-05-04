@@ -1,0 +1,65 @@
+*{
+    background-color: black;
+    color:white;
+}
+Header {
+    display: flex;
+    flex-direction: row;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+}
+
+button { 
+    display: inline-block;
+    background-color: blue;
+    position:relative;
+    right: -950px;
+    color: red;
+    border-radius: 15px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+}
+div h2 {
+    display: inline-block;
+    position:relative;
+    Color: Green;
+    background-color: grey;
+    border-radius: 20px;
+}   
+div h3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: blueviolet;
+
+}
+p {
+    display: flex;
+    flex: wrap;
+    justify-items: flex-start ;
+    color:darkgoldenrod;
+}
+
+.Solen {
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    font-size: 45px;
+    color:darkblue;
+}
+
+button:hover {
+    background-color: yellow;
+    transition: .5 s;
+}
+img {
+    display: inl;
+    padding: 5px;  
+    width: 150px;
+    height: 150px;
+}
