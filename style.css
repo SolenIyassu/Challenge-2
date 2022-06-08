@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: blue;
     color:white;
 }
 Header {
@@ -43,6 +43,10 @@ p {
     flex: wrap;
     justify-items: flex-start ;
     color:darkgoldenrod;
+}
+/* h2::after {
+    content:"There is more to read";
+    background-color:red; */
 }
 
 .Solen {
