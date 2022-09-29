@@ -1,0 +1,55 @@
+* {
+  background-image:);
+ 
+  animation: mymove 20s infinite;
+  
+}
+@keyframes mymove {
+  from {background-image: url(./Assets/jeremy-bishop-G9i_plbfDgk-unsplash.jpg);)}
+  to {background-image: url(./Assets/73dd3bcbffbf8080296d7a289d251620.jpeg);}
+  }
+
+h1{
+    color: white;
+    text-decoration: dashed;
+
+  }
+p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    color: white;
+
+  }
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: end;
+
+  }
+  button{
+      display: flex;
+      border-radius: 15px;
+      justify-content: center;
+      width: 100px;
+      height: 20px;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    color: white
+
+  }
+  .photo{
+      display: flex;
+      flex-direction: inherit;
+      justify-content:space-evenly;
+      padding: 5px;
+      width: 250px;
+      height: 250px;
+  }
+  img{
+  display: flex;
+  justify-content: space-around;
+  }
